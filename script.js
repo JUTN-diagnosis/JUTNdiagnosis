@@ -176,9 +176,9 @@ const questions = [{
     {
         "question": "テスト勉強はいつから始めますか？",
         "answers": {
-            "1": {"text": "2週間前", "score": {"C": 1}},
-            "2": {"text": "1週間前", "score": {"G": 1}},
-            "3": {"text": "直前", "score": {"G": 3}}
+            "1": {"text": "2週間前", "score": {"C": 3}},
+            "2": {"text": "1週間前", "score": {"C": 1}},
+            "3": {"text": "直前", "score": {"G": 1}}
         }
     },
     {
