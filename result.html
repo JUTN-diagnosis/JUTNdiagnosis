@@ -21,7 +21,7 @@
   <h1 id="resultText"></h1>
   <p id="descriptionText"></p>
 
-  <h2>スコア比較（A vs E、B vs F、C vs G、D vs H）</h2>
+  <h2>スコア比較〈A(洞察型) vs E(盲信型)、B(自然派) vs F(室居癖)、C(綿密性) vs G(奔放性)、D(楽観性) vs H(悲観性)〉</h2>
   <canvas id="myChart" width="600" height="400"></canvas>
 
   <script>
@@ -41,12 +41,12 @@
           {
             label: '左側 (A, B, C, D)',
             data: [scores.A, scores.B, scores.C, scores.D],
-            backgroundColor: 'rgba(54, 162, 235, 0.6)'
+            backgroundColor: 'rgba(255, 99, 132, 0.6)'
           },
           {
             label: '右側 (E, F, G, H)',
             data: [scores.E, scores.F, scores.G, scores.H],
-            backgroundColor: 'rgba(255, 99, 132, 0.6)'
+            backgroundColor: 'rgba(54, 162, 235, 0.6)'
           }
         ]
       },
