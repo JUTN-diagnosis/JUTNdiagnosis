@@ -20,7 +20,7 @@ h1 {
 }
 button {
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 16px;
   background: #4caf50;
   color: white;
   border: none;
@@ -30,4 +30,5 @@ button:hover {
   background: #45a049;
 
 }
+
 
