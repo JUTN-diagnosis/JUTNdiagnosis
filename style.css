@@ -1,75 +1,38 @@
-/* 基本スタイル */
 body {
   font-family: "Helvetica", sans-serif;
   padding: 20px;
   background: #f0f8ff;
 }
-
 h1 {
   color: #333;
 }
-
-.form-container {
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
 .question {
   margin-bottom: 20px;
   padding: 10px;
   background: #fff;
   border-left: 4px solid #4caf50;
 }
-
 .result {
   margin-top: 30px;
   padding: 20px;
   background: #e0ffe0;
   border: 2px solid #4caf50;
 }
-
 button {
-  display: block;
-  width: 100%;
-  max-width: 300px;
-  padding: 1em 2em;
-  font-size: 1.2em;
+  padding: 10px 20px;
+  font-size: 16px;
   background: #4caf50;
   color: white;
   border: none;
   cursor: pointer;
-  border-radius: 8px;
-  margin: 0 auto;
 }
-
 button:hover {
   background: #45a049;
+
 }
-
-/* スマホ対応スタイル */
-@media screen and (max-width: 768px) {
-  body {
-    padding: 10px;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  .question,
-  .result {
-    padding: 10px;
-    font-size: 15px;
-  }
-
-  button {
-    font-size: 1.2em;
-    padding: 16px 24px;
-    max-width: 100%;
-  }
-
-  .form-container {
-    max-width: 100%;
-  }
+button {
+  width: 100%;
+  max-width: 300px;
+  padding: 1em 2em;
+  font-size: 1.2em;
 }
